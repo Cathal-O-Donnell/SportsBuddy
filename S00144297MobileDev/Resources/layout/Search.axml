@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/linearlayoutSearch">
+    <!--Label-->
+    <TextView
+        android:text="Search"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#368DEB"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/txtSearchHeading" />
+    <!--Search Textbox-->
+    <EditText
+        android:id="@+id/tbxSearch"
+        android:layout_marginLeft="15dp"
+          android:layout_marginTop="15dp"
+          android:layout_marginBottom="5dp"
+          android:layout_marginRight="15dp"
+          android:layout_width="match_parent"
+          android:layout_height="35dp"
+          android:ellipsize="start"
+          android:gravity="center"
+          android:hint="Search"
+          android:textColorHint="#a6a6a6"
+          android:inputType="text"
+          android:textColor="#000000"
+          android:background="@drawable/editText_style" />
+    <!--Dropdown list for sports-->
+    <Spinner
+        android:spinnerMode="dialog"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:id="@+id/lstSearchSports"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="15dp"
+        android:textAlignment="center"
+        android:background="@drawable/editText_style"/>
+  <!--Dropdown list for towns-->
+  <Spinner
+      android:spinnerMode="dialog"
+      android:gravity="center"
+      android:layout_width="fill_parent"
+      android:layout_height="35dp"
+      android:id="@+id/lstSearchTowns"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="15dp"
+      android:layout_marginBottom="20dp"
+      android:layout_marginRight="15dp"
+      android:textAlignment="center"
+      android:background="@drawable/editText_style"/>
+    <!--Submit Button-->
+    <Button
+        android:id="@+id/btnSearch"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshapeGreen"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="50dp"/>
+  </LinearLayout>

@@ -1,0 +1,23 @@
+﻿<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Pressed-->
+  <item android:state_pressed="true" >
+    <shape>
+      <solid android:color="#5570f6" />
+    </shape>
+  </item>
+
+  <!--Focused-->
+  <item android:state_focused="true">
+    <shape>
+      <solid android:color="#5570f6" />
+    </shape>
+  </item>
+
+  <!--Default-->
+  <item>
+    <shape>
+      <solid android:color="#6e85f7" />
+    </shape>
+  </item>
+  
+</selector>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">S00144297MobileDev</string>
+  <string-array name="SportList">
+    <item>Select Sport</item>
+    <item>Gaelic</item>
+    <item>Hill Walking</item>
+    <item>Golf</item>
+    <item>Tennis</item>
+    <item>Soccer</item>
+    <item>Running</item>
+    <item>Cycling</item>
+    <item>Walking</item>
+  </string-array>
+  <string-array name="TownList">
+    <item>Select Town</item>
+    <item>Sligo</item>
+    <item>Galway</item>
+    <item>Dublin</item>
+    <item>Cork</item>
+  </string-array>
+<string name="GoogleKey">AIzaSyDxZhy97MyWeHJdLT8SI7a6fjMIgxp4tFQ</string>
+<string name="BackgroundColor">#e6e6e6</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3">
+      <!--Title-->
+      <TextView
+          android:text="Title"
+          android:layout_marginLeft="15dp"
+          android:layout_marginTop="15dp"
+          android:layout_marginRight="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:textColor="#368DEB"
+          android:textSize="25sp"
+          android:id="@+id/listViewTitle"
+          android:paddingBottom="5dp"
+          android:layout_weight="1"/>
+      <!--Edit Icon-->
+      <ImageView
+          android:src="@drawable/edit"
+          android:layout_width="185dp"
+          android:layout_height="55dp"
+          android:scaleType="fitXY"
+          android:id="@+id/imgEdit"
+          android:layout_marginLeft="15dp"
+          android:layout_marginTop="5dp"
+          android:adjustViewBounds="false"
+          android:layout_marginBottom="5dp"
+          android:layout_weight="1"/>
+      <!--Delete Iocn-->
+      <ImageView
+          android:src="@drawable/delete"
+          android:layout_width="185dp"
+          android:layout_height="55dp"
+          android:scaleType="fitXY"
+          android:id="@+id/imgRemove"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="5dp"
+          android:adjustViewBounds="false"
+          android:layout_marginBottom="5dp"
+          android:layout_weight="1"/>
+  </LinearLayout>
+</LinearLayout>
+

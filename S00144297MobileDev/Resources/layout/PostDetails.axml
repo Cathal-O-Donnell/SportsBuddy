@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/linearlayoutPostDetails">
+  <!--Title-->
+  <TextView
+      android:text="Large Text"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textStyle="bold"
+      android:textSize="25sp"
+      android:layout_marginBottom="5dp"
+      android:textColor="#368DEB"
+      android:id="@+id/txPostDetailsTitle" />
+  <!--Details-->
+  <TextView
+      android:text="Medium Text"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txPostDetailsDetails"
+      android:layout_marginBottom="5dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="15dp"
+      android:textColor="#333333"
+      android:textSize="17sp"
+      android:fontFamily="sans-serif-condensed"/>
+  <!--Horizontal Line-->
+  <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:background="#4d4d4d"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"/>
+  <!--Time-->
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <!--Time Image-->
+    <ImageView
+      android:src="@drawable/hourglass"
+      android:layout_width="140dp"
+      android:layout_height="55dp"
+      android:id="@+id/imgTime"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="15dp"
+      android:scaleType="fitXY"
+      android:adjustViewBounds="false"
+      android:layout_marginBottom="5dp"
+      android:layout_weight="1"/>
+    <!--Time Text-->
+    <TextView
+      android:text="7:30 PM"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="27dp"
+      android:layout_marginLeft="15dp"
+      android:id="@+id/txPostDetailsTime"
+      android:layout_weight="1"/>
+  </LinearLayout>
+  <!--Date-->
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <!--Date Image-->
+    <ImageView
+      android:src="@drawable/calendar"
+      android:layout_width="140dp"
+      android:layout_height="55dp"
+      android:id="@+id/imgTime"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="15dp"
+      android:scaleType="fitXY"
+      android:adjustViewBounds="false"
+      android:layout_marginBottom="5dp"
+      android:layout_weight="1"/>
+    <!--Date Text-->
+    <TextView
+      android:text=""
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="27dp"
+      android:layout_marginLeft="15dp"
+      android:id="@+id/txPostDetailsDate"
+      android:layout_weight="1"/>
+  </LinearLayout>
+  <!--Phone-->
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <!--Phone Image-->
+    <ImageView
+      android:src="@drawable/phone"
+      android:layout_width="140dp"
+      android:layout_height="55dp"
+      android:id="@+id/imgTime"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="15dp"
+      android:scaleType="fitXY"
+      android:adjustViewBounds="false"
+      android:layout_marginBottom="5dp"
+      android:layout_weight="1"/>
+    <!--Time Text-->
+    <TextView
+      android:text="087 1234567"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="27dp"
+      android:layout_marginLeft="15dp"
+      android:id="@+id/txPostDetailsPhone"
+      android:layout_weight="1"/>
+  </LinearLayout>
+  <!--Email-->
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <!--Email Image-->
+    <ImageView
+      android:src="@drawable/email"
+      android:layout_width="140dp"
+      android:layout_height="55dp"
+      android:id="@+id/imgTime"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="15dp"
+      android:scaleType="fitXY"
+      android:adjustViewBounds="false"
+      android:layout_marginBottom="5dp"
+      android:layout_weight="1"/>
+    <!--Email Text-->
+    <TextView
+      android:text="johnDoe@gmail.com"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="27dp"
+      android:layout_marginLeft="15dp"
+      android:id="@+id/txPostDetailsEmail"
+      android:layout_weight="1"/>
+  </LinearLayout>
+  <!--Horizontal Line-->
+  <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:background="#4d4d4d"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"/>
+  <!--Location-->
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <!--Location Image-->
+    <ImageView
+      android:src="@drawable/location"
+      android:layout_width="140dp"
+      android:layout_height="55dp"
+      android:id="@+id/imgTime"
+      android:layout_marginLeft="25dp"
+      android:layout_marginTop="15dp"
+      android:scaleType="fitXY"
+      android:adjustViewBounds="false"
+      android:layout_marginBottom="5dp"
+      android:layout_weight="1"/>
+    <!--Location Text-->
+    <TextView
+      android:text=""
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="27dp"
+      android:layout_marginLeft="15dp"
+      android:id="@+id/txPostDetailsAddress"
+      android:layout_weight="1"/>
+  </LinearLayout>
+  <!--<fragment
+   android:id="@+id/txPostDetailsGoogleMap"
+   android:layout_width="match_parent"
+   android:layout_height="200dp"
+   class="com.google.android.gms.maps.MapFragment"
+  />-->
+</LinearLayout>
